@@ -1,7 +1,7 @@
 # Multi-stage build for the React/Vite frontend served by nginx.
 # Build context for this image is the repo root, e.g.:
 #   docker build -f docker/frontend.Dockerfile -t sc_frontend .
-FROM node:20-alpine AS builder
+FROM node:26-alpine AS builder
 
 WORKDIR /app
 
