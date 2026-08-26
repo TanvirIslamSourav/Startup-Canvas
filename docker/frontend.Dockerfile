@@ -16,7 +16,7 @@ COPY frontend/ ./
 RUN npm run build
 
 # ---- Runtime stage -------------------------------------------------------
-FROM nginx:1.27-alpine
+FROM nginx:1.31-alpine
 
 # Remove the default nginx static site.
 RUN rm -rf /usr/share/nginx/html/*
