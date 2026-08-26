@@ -1,0 +1,15 @@
+{
+  "_default": [
+    { "title": "Strengths", "detail": "Lean team, low burn, clear vision, technical founder.", "confidence": 0.6 },
+    { "title": "Weaknesses", "detail": "Limited distribution, no brand, narrow network.", "confidence": 0.6 },
+    { "title": "Opportunities", "detail": "Rising demand in the target segment, regulatory tailwinds.", "confidence": 0.55 },
+    { "title": "Threats", "detail": "Well-funded incumbents, copy-cat features, platform risk.", "confidence": 0.6 }
+  ],
+  "marketplace": [
+    { "title": "Network effects", "detail": "Each new participant increases value for the other side — your strongest moat.", "confidence": 0.7 },
+    { "title": "Liquidity risk", "detail": "If supply outpaces demand early, churn follows; instrument carefully.", "confidence": 0.65 }
+  ],
+  "saas": [
+    { "title": "Switching cost", "detail": "Plan integrations that make the product sticky (SSO, exports, audit logs).", "confidence": 0.7 }
+  ]
+}

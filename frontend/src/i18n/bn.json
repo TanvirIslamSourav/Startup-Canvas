@@ -1,0 +1,353 @@
+{
+  "app": {
+    "name": "স্টার্টআপ ক্যানভাস",
+    "tagline": "পরিকল্পনা, যাচাই, এবং আপনার স্টার্টআপ চালু করুন — একটি ক্যানভাসে একটি করে।"
+  },
+  "nav": {
+    "dashboard": "ড্যাশবোর্ড",
+    "ideas": "আইডিয়া",
+    "leanCanvas": "লিন ক্যানভাস",
+    "businessCanvas": "বিজনেস মডেল",
+    "swot": "সোট",
+    "competitors": "প্রতিযোগী",
+    "personas": "পার্সোনা",
+    "roadmap": "রোডম্যাপ",
+    "tasks": "কাজ",
+    "milestones": "মাইলস্টোন",
+    "progress": "অগ্রগতি",
+    "documents": "ডকুমেন্ট",
+    "notes": "নোট",
+    "analytics": "বিশ্লেষণ",
+    "activities": "অ্যাক্টিভিটি",
+    "settings": "সেটিংস",
+    "about": "সম্পর্কে"
+  },
+  "common": {
+    "save": "সংরক্ষণ",
+    "cancel": "বাতিল",
+    "create": "তৈরি",
+    "edit": "সম্পাদনা",
+    "delete": "মুছুন",
+    "restore": "পুনরুদ্ধার",
+    "search": "অনুসন্ধান",
+    "loading": "লোড হচ্ছে…",
+    "empty": "এখানে এখনো কিছু নেই।",
+    "error": "কিছু ভুল হয়েছে।",
+    "retry": "আবার চেষ্টা করুন",
+    "language": "ভাষা",
+    "theme": "থিম",
+    "themeLight": "হালকা",
+    "themeDark": "গাঢ়",
+    "themeSystem": "সিস্টেম",
+    "languageEn": "English",
+    "languageBn": "বাংলা",
+    "confirm": "নিশ্চিত করুন",
+    "confirmDelete": "আইটেমটি মুছে ফেলবেন?",
+    "actions": "কর্ম",
+    "pageOf": "পৃষ্ঠা {{page}} / {{total}}",
+    "currentIdea": "সক্রিয় আইডিয়া",
+    "pickIdea": "একটি আইডিয়া বাছাই করুন",
+    "optional": "(ঐচ্ছিক)",
+    "selectAll": "সব",
+    "itemsCount": "{{count}}টি আইটেম",
+    "itemsCountOther": "{{count}}টি আইটেম",
+    "saving": "সংরক্ষণ হচ্ছে…",
+    "deleting": "মুছে ফেলা হচ্ছে…"
+  },
+  "ideas": {
+    "title": "আইডিয়া",
+    "newIdea": "নতুন আইডিয়া",
+    "editIdea": "আইডিয়া সম্পাদনা",
+    "deleteIdea": "আইডিয়া মুছুন",
+    "archiveIdea": "আইডিয়া আর্কাইভ",
+    "restoreIdea": "আইডিয়া পুনরুদ্ধার",
+    "noIdeasTitle": "কোনো আইডিয়া নেই",
+    "noIdeasHelper": "ক্যানভাস, কাজ, এবং মাইলস্টোন ট্র্যাক করতে আপনার প্রথম আইডিয়া তৈরি করুন।",
+    "fields": {
+      "title": "শিরোনাম",
+      "problem": "সমস্যা",
+      "solution": "সমাধান",
+      "audience": "শ্রোতা",
+      "category": "ক্যাটাগরি",
+      "tags": "ট্যাগ (কমা দিয়ে আলাদা)",
+      "status": "অবস্থা",
+      "priority": "অগ্রাধিকার",
+      "score": "স্কোর",
+      "isArchived": "আর্কাইভড",
+      "createdAt": "তৈরি হয়েছে",
+      "updatedAt": "আপডেট হয়েছে"
+    },
+    "statuses": {
+      "draft": "ড্রাফট",
+      "validating": "যাচাই চলছে",
+      "planned": "পরিকল্পিত",
+      "in_progress": "চলমান",
+      "on_hold": "স্থগিত",
+      "completed": "সম্পন্ন",
+      "archived": "আর্কাইভড"
+    },
+    "priorities": {
+      "0": "নেই",
+      "1": "অতি কম",
+      "2": "কম",
+      "3": "মাঝারি",
+      "4": "উচ্চ",
+      "5": "অত্যন্ত গুরুত্বপূর্ণ"
+    },
+    "confirmArchive": "এই আইডিয়া আর্কাইভ করবেন?",
+    "confirmDelete": "এই আইডিয়া স্থায়ীভাবে মুছে ফেলবেন?",
+    "filters": {
+      "status": "অবস্থা",
+      "category": "ক্যাটাগরি",
+      "includeArchived": "আর্কাইভড অন্তর্ভুক্ত করুন"
+    },
+    "noProject": "একটি প্রকল্প বাছাই করুন"
+  },
+  "projects": {
+    "title": "প্রকল্প",
+    "newProject": "নতুন প্রকল্প",
+    "editProject": "প্রকল্প সম্পাদনা",
+    "fields": {
+      "name": "প্রকল্পের নাম",
+      "description": "বিবরণ",
+      "stage": "ধাপ",
+      "status": "অবস্থা",
+      "tags": "ট্যাগ",
+      "owner": "মালিক"
+    }
+  },
+  "users": {
+    "title": "ব্যবহারকারী",
+    "fields": {
+      "email": "ইমেইল",
+      "displayName": "প্রদর্শন নাম",
+      "locale": "লোকেল",
+      "theme": "থিম",
+      "isActive": "সক্রিয়"
+    }
+  },
+  "leanCanvas": {
+    "title": "লিন ক্যানভাস",
+    "newCanvas": "নতুন লিন ক্যানভাস",
+    "editCanvas": "লিন ক্যানভাস সম্পাদনা",
+    "hint": "প্রতিটি আইডিয়ার জন্য একটি লিন ক্যানভাস আছে। যেকোনো ঘর সম্পাদনা করে সংরক্ষণ করুন।",
+    "fields": {
+      "problem": "সমস্যা",
+      "solution": "সমাধান",
+      "keyMetrics": "মূল মেট্রিক্স",
+      "uniqueValueProp": "অনন্য মূল্য প্রস্তাব",
+      "unfairAdvantage": "অসম প্রতিযোগিতা সুবিধা",
+      "channels": "চ্যানেল",
+      "customerSegments": "গ্রাহক সেগমেন্ট",
+      "costStructure": "খরচ কাঠামো",
+      "revenueStreams": "আয়ের উৎস"
+    },
+    "aiHelper": "AI-এর কাছ থেকে পরামর্শ নিন",
+    "delete": "লিন ক্যানভাস মুছুন",
+    "confirmDelete": "এই আইডিয়াটির লিন ক্যানভাস মুছে ফেলবেন?"
+  },
+  "businessCanvas": {
+    "title": "বিজনেস মডেল ক্যানভাস",
+    "newCanvas": "নতুন বিজনেস ক্যানভাস",
+    "editCanvas": "বিজনেস ক্যানভাস সম্পাদনা",
+    "hint": "প্রতিটি আইডিয়ার জন্য একটি বিজনেস মডেল ক্যানভাস আছে। যেকোনো ঘর সম্পাদনা করে সংরক্ষণ করুন।",
+    "fields": {
+      "keyPartners": "মূল অংশীদার",
+      "keyActivities": "মূল কার্যক্রম",
+      "keyResources": "মূল সম্পদ",
+      "valuePropositions": "মূল্য প্রস্তাব",
+      "customerRelationships": "গ্রাহক সম্পর্ক",
+      "channels": "চ্যানেল",
+      "customerSegments": "গ্রাহক সেগমেন্ট",
+      "costStructure": "খরচ কাঠামো",
+      "revenueStreams": "আয়ের উৎস"
+    },
+    "delete": "বিজনেস ক্যানভাস মুছুন",
+    "confirmDelete": "এই আইডিয়াটির বিজনেস ক্যানভাস মুছে ফেলবেন?"
+  },
+  "swot": {
+    "title": "সোট বিশ্লেষণ",
+    "newSwot": "সোট তৈরি",
+    "editSwot": "সোট সম্পাদনা",
+    "hint": "প্রতিটি আইডিয়ার জন্য একটি সোট বিশ্লেষণ আছে। শক্তিশালী দিক, দুর্বলতা, সুযোগ, ও হুমকি।",
+    "fields": {
+      "strengths": "শক্তিশালী দিক",
+      "weaknesses": "দুর্বলতা",
+      "opportunities": "সুযোগ",
+      "threats": "হুমকি",
+      "score": "স্কোর",
+      "summary": "সারমর্ম"
+    },
+    "aiHelper": "AI-এর কাছ থেকে সোট পরামর্শ নিন",
+    "delete": "সোট মুছুন",
+    "confirmDelete": "এই আইডিয়ার সোট মুছে ফেলবেন?"
+  },
+  "progress": {
+    "title": "অগ্রগতি ট্র্যাকার",
+    "newTracker": "ট্র্যাকার তৈরি",
+    "editTracker": "ট্র্যাকার আপডেট",
+    "hint": "আইডিয়াটির অবস্থার সারসংক্ষেপ। যেকোনো মেট্রিক সম্পাদনা করে সংরক্ষণ করুন।",
+    "fields": {
+      "overallCompletion": "সামগ্রিক অগ্রগতি",
+      "healthScore": "স্বাস্থ্য স্কোর",
+      "milestoneProgress": "মাইলস্টোনের অগ্রগতি",
+      "taskCompletion": "কাজের অগ্রগতি",
+      "lastComputedAt": "সর্বশেষ গণনা"
+    },
+    "delete": "অগ্রগতি ট্র্যাকার মুছুন",
+    "confirmDelete": "এই আইডিয়ার অগ্রগতি ট্র্যাকার মুছে ফেলবেন?"
+  },
+  "competitors": {
+    "title": "প্রতিযোগী",
+    "newCompetitor": "প্রতিযোগী যোগ",
+    "editCompetitor": "প্রতিযোগী সম্পাদনা",
+    "fields": {
+      "name": "নাম",
+      "websiteUrl": "ওয়েবসাইট URL",
+      "pricing": "মূল্য",
+      "pricingCurrency": "মুদ্রা",
+      "strengths": "শক্তিশালী দিক",
+      "weaknesses": "দুর্বলতা",
+      "features": "বৈশিষ্ট্য",
+      "marketPosition": "বাজার অবস্থান",
+      "notes": "নোট"
+    },
+    "confirmDelete": "এই প্রতিযোগী মুছে ফেলবেন?"
+  },
+  "personas": {
+    "title": "গ্রাহক পার্সোনা",
+    "newPersona": "পার্সোনা যোগ",
+    "editPersona": "পার্সোনা সম্পাদনা",
+    "fields": {
+      "name": "নাম",
+      "age": "বয়স",
+      "occupation": "পেশা",
+      "goals": "লক্ষ্য",
+      "painPoints": "যন্ত্রণার জায়গা",
+      "needs": "চাহিদা",
+      "behaviour": "আচরণ",
+      "avatarUrl": "অবতার URL"
+    },
+    "confirmDelete": "এই পার্সোনা মুছে ফেলবেন?"
+  },
+  "tasks": {
+    "title": "কাজ",
+    "newTask": "নতুন কাজ",
+    "editTask": "কাজ সম্পাদনা",
+    "fields": {
+      "title": "শিরোনাম",
+      "description": "বিবরণ",
+      "priority": "অগ্রাধিকার",
+      "status": "অবস্থা",
+      "progress": "অগ্রগতি",
+      "dueDate": "শেষ তারিখ",
+      "startedAt": "শুরু হয়েছে",
+      "completedAt": "সম্পন্ন হয়েছে"
+    },
+    "statuses": {
+      "todo": "করণীয়",
+      "in_progress": "চলমান",
+      "blocked": "আটকে আছে",
+      "done": "সম্পন্ন"
+    },
+    "priorities": {
+      "low": "কম",
+      "medium": "মাঝারি",
+      "high": "উচ্চ",
+      "critical": "অত্যন্ত গুরুত্বপূর্ণ"
+    },
+    "confirmDelete": "এই কাজটি মুছে ফেলবেন?"
+  },
+  "milestones": {
+    "title": "মাইলস্টোন",
+    "newMilestone": "নতুন মাইলস্টোন",
+    "editMilestone": "মাইলস্টোন সম্পাদনা",
+    "fields": {
+      "title": "শিরোনাম",
+      "description": "বিবরণ",
+      "targetDate": "লক্ষ্য তারিখ",
+      "completedAt": "সম্পন্ন হয়েছে",
+      "completion": "অগ্রগতি"
+    },
+    "confirmDelete": "এই মাইলস্টোন মুছে ফেলবেন?"
+  },
+  "documents": {
+    "title": "ডকুমেন্ট",
+    "newDocument": "নতুন ডকুমেন্ট",
+    "editDocument": "ডকুমেন্ট সম্পাদনা",
+    "fields": {
+      "kind": "ধরন",
+      "title": "শিরোনাম",
+      "filePath": "ফাইল পাথ",
+      "mimeType": "MIME ধরন",
+      "sizeBytes": "আকার (বাইট)",
+      "notes": "নোট"
+    },
+    "kinds": {
+      "attachment": "সংযুক্তি",
+      "pitch": "পিচ",
+      "spec": "স্পেস",
+      "contract": "চুক্তি",
+      "note": "নোট"
+    },
+    "confirmDelete": "এই ডকুমেন্ট মুছে ফেলবেন?"
+  },
+  "notes": {
+    "title": "নোট",
+    "newNote": "নতুন নোট",
+    "editNote": "নোট সম্পাদনা",
+    "fields": {
+      "body": "নোট",
+      "pinned": "পিন করা"
+    },
+    "confirmDelete": "এই নোটটি মুছে ফেলবেন?"
+  },
+  "roadmap": {
+    "title": "রোডম্যাপ",
+    "newRoadmap": "রোডম্যাপ তৈরি",
+    "editRoadmap": "রোডম্যাপ সম্পাদনা",
+    "newStage": "ধাপ যোগ",
+    "editStage": "ধাপ সম্পাদনা",
+    "fields": {
+      "title": "শিরোনাম",
+      "summary": "সারাংশ",
+      "targetCompletion": "লক্ষ্য তারিখ",
+      "completion": "অগ্রগতি",
+      "stageTitle": "ধাপের শিরোনাম",
+      "stageDescription": "ধাপের বিবরণ",
+      "stageTargetDate": "ধাপের লক্ষ্য তারিখ",
+      "stageCompletion": "ধাপের অগ্রগতি",
+      "stagePosition": "অবস্থান"
+    },
+    "noRoadmap": "কোনো রোডম্যাপ নেই। ধাপগুলো পরিকল্পনা করতে একটি তৈরি করুন।",
+    "stages": "ধাপসমূহ",
+    "aiHelper": "AI-এর কাছ থেকে গ্রোথ রোডম্যাপ পান",
+    "confirmDelete": "এই রোডম্যাপ ও এর ধাপগুলো মুছে ফেলবেন?",
+    "confirmDeleteStage": "এই ধাপটি মুছে ফেলবেন?"
+  },
+  "activities": {
+    "title": "অ্যাক্টিভিটি",
+    "noActivities": "এই আইডিয়ার জন্য কোনো অ্যাক্টিভিটি নথিভুক্ত হয়নি।",
+    "fields": {
+      "eventType": "ইভেন্ট",
+      "createdAt": "কখন",
+      "actor": "অংশগ্রহণকারী"
+    }
+  },
+  "analytics": {
+    "title": "বিশ্লেষণ",
+    "noIdea": "বিশ্লেষণ দেখতে একটি আইডিয়া বাছাই করুন।",
+    "taskBreakdown": "কাজের ভাঙন",
+    "completion": "অগ্রগতি",
+    "score": "স্কোর",
+    "priority": "অগ্রাধিকার"
+  },
+  "about": {
+    "title": "সম্পর্কে",
+    "heading": "স্টার্টআপ ক্যানভাস সম্পর্কে",
+    "blurb": "অসম্পূর্ণ আইডিয়া থেকে যাচাইকৃত পরিকল্পনায় রূপান্তরের জন্য একটি পূর্ণস্ট্যাক ওয়ার্কস্পেস। React, TypeScript, FastAPI এবং PostgreSQL দিয়ে তৈরি। দ্বিভাষিক, থিম-সচেতন, এবং সম্পূর্ণ ডকারাইজড।",
+    "version": "সংস্করণ",
+    "stack": "টেক স্ট্যাক",
+    "docs": "ডকুমেন্টেশন"
+  }
+}

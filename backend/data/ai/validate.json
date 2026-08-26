@@ -1,0 +1,22 @@
+{
+  "_default": [
+    { "title": "Validate the problem", "detail": "Interview 5 target customers this week and ask how they currently solve the problem.", "confidence": 0.7 },
+    { "title": "Size the market", "detail": "Estimate the TAM, SAM, and SOM using bottom-up numbers from public sources.", "confidence": 0.65 },
+    { "title": "Define your wedge", "detail": "Pick one persona, one use case, one geography. Resist spreading too thin.", "confidence": 0.8 }
+  ],
+  "education": [
+    { "title": "Education wedge", "detail": "Start with after-school tutoring for grade 5–8 students in underserved districts.", "confidence": 0.7 },
+    { "title": "Validate via schools", "detail": "Pilot with 2 schools for a 4-week trial before building product.", "confidence": 0.75 }
+  ],
+  "marketplace": [
+    { "title": "Two-sided risk", "detail": "Solve the chicken-and-egg problem by subsidising the supply side for the first 90 days.", "confidence": 0.7 },
+    { "title": "Trust signals", "detail": "Build verifiable reviews and an escrow mechanism before scaling.", "confidence": 0.65 }
+  ],
+  "health": [
+    { "title": "Compliance first", "detail": "Engage a regulatory consultant before designing the core flow.", "confidence": 0.9 },
+    { "title": "Clinical evidence", "detail": "Plan a small pilot study to collect outcome data you can share with payers.", "confidence": 0.7 }
+  ],
+  "fintech": [
+    { "title": "Regulatory landscape", "detail": "Map the licenses required (KYC/AML) and budget 3–6 months for the first one.", "confidence": 0.85 }
+  ]
+}

@@ -1,0 +1,29 @@
+# Auto-detect text files
+* text=auto
+
+# Source files: force LF to keep docker / shell scripts portable
+*.py            text eol=lf
+*.js            text eol=lf
+*.ts            text eol=lf
+*.tsx           text eol=lf
+*.json          text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+*.md            text eol=lf
+*.sh            text eol=lf
+*.ps1           text eol=lf
+*.dockerfile    text eol=lf
+Dockerfile      text eol=lf
+.env.example    text eol=lf
+
+# Binary
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.webp          binary
+*.ico           binary
+*.woff2         binary
+*.ttf           binary
+*.eot           binary
+*.otf           binary

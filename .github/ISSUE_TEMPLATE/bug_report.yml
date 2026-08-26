@@ -1,0 +1,77 @@
+name: 🐛 Bug Report
+description: Report something that is broken or behaves incorrectly.
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug. Please answer the
+        questions below — the more detail, the faster we can fix it.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear, concise description of the bug.
+      placeholder: When I open the Dashboard page, the task counts show 0 even though I have tasks.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: The Dashboard should show the number of completed vs total tasks from the API.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps that, when followed, reliably produce the bug.
+      placeholder: |
+        1. Run `docker compose up --build`
+        2. Visit http://localhost:8080/dashboard
+        3. Observe the count
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      multiple: true
+      options:
+        - Docker (compose)
+        - Local backend (uvicorn)
+        - Local frontend (vite)
+        - Production build
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions (commit hash / release tag / OS)
+      placeholder: main @ abc1234, Windows 11, Chrome 124
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Paste relevant backend logs, browser console output, or attach screenshots.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: severity
+    attributes:
+      label: Severity guess
+      placeholder: Blocks my work / inconvenient / cosmetic
+    validations:
+      required: false

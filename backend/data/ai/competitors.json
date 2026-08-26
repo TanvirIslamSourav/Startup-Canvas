@@ -1,0 +1,13 @@
+{
+  "_default": [
+    { "title": "Direct competitors", "detail": "List 3 incumbents and study their pricing, onboarding, and churn signals.", "confidence": 0.7 },
+    { "title": "Adjacent competitors", "detail": "Identify tools your customers use today that solve part of the problem.", "confidence": 0.65 },
+    { "title": "Non-obvious threats", "detail": "Watch platform owners (Google, Meta, Apple) — a new feature can wipe out a category overnight.", "confidence": 0.6 }
+  ],
+  "education": [
+    { "title": "Public systems", "detail": "Free public tutoring (Khan Academy, state programs) is your baseline.", "confidence": 0.75 }
+  ],
+  "fintech": [
+    { "title": "Banks", "detail": "Banks move slowly but own trust — partner rather than fight for the first product.", "confidence": 0.7 }
+  ]
+}

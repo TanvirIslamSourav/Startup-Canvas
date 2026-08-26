@@ -1,0 +1,369 @@
+{
+  "app": {
+    "name": "Startup Canvas",
+    "tagline": "Plan, validate, and ship your startup — one canvas at a time."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "ideas": "Ideas",
+    "leanCanvas": "Lean Canvas",
+    "businessCanvas": "Business Model",
+    "swot": "SWOT",
+    "competitors": "Competitors",
+    "personas": "Personas",
+    "roadmap": "Roadmap",
+    "tasks": "Tasks",
+    "milestones": "Milestones",
+    "progress": "Progress",
+    "documents": "Documents",
+    "notes": "Notes",
+    "analytics": "Analytics",
+    "activities": "Activity",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "restore": "Restore",
+    "search": "Search",
+    "loading": "Loading…",
+    "empty": "Nothing here yet.",
+    "error": "Something went wrong.",
+    "retry": "Retry",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "languageEn": "English",
+    "languageBn": "বাংলা",
+    "confirm": "Confirm",
+    "confirmDelete": "Delete this item?",
+    "actions": "Actions",
+    "pageOf": "Page {{page}} of {{total}}",
+    "currentIdea": "Active idea",
+    "pickIdea": "Pick an idea",
+    "optional": "(optional)",
+    "selectAll": "All",
+    "itemsCount": "{{count}} item",
+    "itemsCountOther": "{{count}} items",
+    "saving": "Saving…",
+    "deleting": "Deleting…"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "preferences": "Preferences"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back. Pick a module to get started.",
+    "pickIdea": "Choose an idea to see its summary",
+    "taskCounts": "Task counts",
+    "resources": "Resources",
+    "milestoneProgress": "Average milestone completion",
+    "roadmapProgress": "Roadmap completion",
+    "noIdea": "Create an idea first to see the dashboard.",
+    "refresh": "Refresh"
+  },
+  "ideas": {
+    "title": "Ideas",
+    "newIdea": "New idea",
+    "editIdea": "Edit idea",
+    "deleteIdea": "Delete idea",
+    "archiveIdea": "Archive idea",
+    "restoreIdea": "Restore idea",
+    "noIdeasTitle": "No ideas yet",
+    "noIdeasHelper": "Create your first idea to start tracking canvases, tasks, and milestones.",
+    "fields": {
+      "title": "Title",
+      "problem": "Problem",
+      "solution": "Solution",
+      "audience": "Audience",
+      "category": "Category",
+      "tags": "Tags (comma-separated)",
+      "status": "Status",
+      "priority": "Priority",
+      "score": "Score",
+      "isArchived": "Archived",
+      "createdAt": "Created",
+      "updatedAt": "Updated"
+    },
+    "statuses": {
+      "draft": "Draft",
+      "validating": "Validating",
+      "planned": "Planned",
+      "in_progress": "In progress",
+      "on_hold": "On hold",
+      "completed": "Completed",
+      "archived": "Archived"
+    },
+    "priorities": {
+      "0": "None",
+      "1": "Very low",
+      "2": "Low",
+      "3": "Medium",
+      "4": "High",
+      "5": "Critical"
+    },
+    "confirmArchive": "Archive this idea?",
+    "confirmDelete": "Permanently delete this idea?",
+    "filters": {
+      "status": "Status",
+      "category": "Category",
+      "includeArchived": "Include archived"
+    },
+    "noProject": "Pick a project"
+  },
+  "projects": {
+    "title": "Projects",
+    "newProject": "New project",
+    "editProject": "Edit project",
+    "fields": {
+      "name": "Project name",
+      "description": "Description",
+      "stage": "Stage",
+      "status": "Status",
+      "tags": "Tags",
+      "owner": "Owner"
+    }
+  },
+  "users": {
+    "title": "Users",
+    "fields": {
+      "email": "Email",
+      "displayName": "Display name",
+      "locale": "Locale",
+      "theme": "Theme",
+      "isActive": "Active"
+    }
+  },
+  "leanCanvas": {
+    "title": "Lean Canvas",
+    "newCanvas": "New lean canvas",
+    "editCanvas": "Edit lean canvas",
+    "hint": "Each idea has a single Lean Canvas. Edit any field and save.",
+    "fields": {
+      "problem": "Problem",
+      "solution": "Solution",
+      "keyMetrics": "Key metrics",
+      "uniqueValueProp": "Unique value proposition",
+      "unfairAdvantage": "Unfair advantage",
+      "channels": "Channels",
+      "customerSegments": "Customer segments",
+      "costStructure": "Cost structure",
+      "revenueStreams": "Revenue streams"
+    },
+    "aiHelper": "Ask AI for suggestions",
+    "delete": "Delete lean canvas",
+    "confirmDelete": "Delete the lean canvas for this idea?"
+  },
+  "businessCanvas": {
+    "title": "Business Model Canvas",
+    "newCanvas": "New business canvas",
+    "editCanvas": "Edit business canvas",
+    "hint": "Each idea has a single Business Model Canvas. Edit any field and save.",
+    "fields": {
+      "keyPartners": "Key partners",
+      "keyActivities": "Key activities",
+      "keyResources": "Key resources",
+      "valuePropositions": "Value propositions",
+      "customerRelationships": "Customer relationships",
+      "channels": "Channels",
+      "customerSegments": "Customer segments",
+      "costStructure": "Cost structure",
+      "revenueStreams": "Revenue streams"
+    },
+    "delete": "Delete business canvas",
+    "confirmDelete": "Delete the business canvas for this idea?"
+  },
+  "swot": {
+    "title": "SWOT analysis",
+    "newSwot": "Create SWOT",
+    "editSwot": "Edit SWOT",
+    "hint": "Each idea has a single SWOT analysis. Strengths, weaknesses, opportunities, and threats.",
+    "fields": {
+      "strengths": "Strengths",
+      "weaknesses": "Weaknesses",
+      "opportunities": "Opportunities",
+      "threats": "Threats",
+      "score": "Score",
+      "summary": "Summary"
+    },
+    "aiHelper": "Ask AI for SWOT suggestions",
+    "delete": "Delete SWOT",
+    "confirmDelete": "Delete the SWOT analysis for this idea?"
+  },
+  "progress": {
+    "title": "Progress tracker",
+    "newTracker": "Create tracker",
+    "editTracker": "Update tracker",
+    "hint": "Roll-up snapshot of where this idea stands. Edit any metric and save.",
+    "fields": {
+      "overallCompletion": "Overall completion",
+      "healthScore": "Health score",
+      "milestoneProgress": "Milestone progress",
+      "taskCompletion": "Task completion",
+      "lastComputedAt": "Last computed"
+    },
+    "delete": "Delete progress tracker",
+    "confirmDelete": "Delete the progress tracker for this idea?"
+  },
+  "competitors": {
+    "title": "Competitors",
+    "newCompetitor": "Add competitor",
+    "editCompetitor": "Edit competitor",
+    "fields": {
+      "name": "Name",
+      "websiteUrl": "Website URL",
+      "pricing": "Pricing",
+      "pricingCurrency": "Currency",
+      "strengths": "Strengths",
+      "weaknesses": "Weaknesses",
+      "features": "Features",
+      "marketPosition": "Market position",
+      "notes": "Notes"
+    },
+    "confirmDelete": "Delete this competitor?"
+  },
+  "personas": {
+    "title": "Customer personas",
+    "newPersona": "Add persona",
+    "editPersona": "Edit persona",
+    "fields": {
+      "name": "Name",
+      "age": "Age",
+      "occupation": "Occupation",
+      "goals": "Goals",
+      "painPoints": "Pain points",
+      "needs": "Needs",
+      "behaviour": "Behaviour",
+      "avatarUrl": "Avatar URL"
+    },
+    "confirmDelete": "Delete this persona?"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "newTask": "New task",
+    "editTask": "Edit task",
+    "fields": {
+      "title": "Title",
+      "description": "Description",
+      "priority": "Priority",
+      "status": "Status",
+      "progress": "Progress",
+      "dueDate": "Due date",
+      "startedAt": "Started at",
+      "completedAt": "Completed at"
+    },
+    "statuses": {
+      "todo": "To do",
+      "in_progress": "In progress",
+      "blocked": "Blocked",
+      "done": "Done"
+    },
+    "priorities": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "confirmDelete": "Delete this task?"
+  },
+  "milestones": {
+    "title": "Milestones",
+    "newMilestone": "New milestone",
+    "editMilestone": "Edit milestone",
+    "fields": {
+      "title": "Title",
+      "description": "Description",
+      "targetDate": "Target date",
+      "completedAt": "Completed at",
+      "completion": "Completion"
+    },
+    "confirmDelete": "Delete this milestone?"
+  },
+  "documents": {
+    "title": "Documents",
+    "newDocument": "New document",
+    "editDocument": "Edit document",
+    "fields": {
+      "kind": "Kind",
+      "title": "Title",
+      "filePath": "File path",
+      "mimeType": "MIME type",
+      "sizeBytes": "Size (bytes)",
+      "notes": "Notes"
+    },
+    "kinds": {
+      "attachment": "Attachment",
+      "pitch": "Pitch",
+      "spec": "Spec",
+      "contract": "Contract",
+      "note": "Note"
+    },
+    "confirmDelete": "Delete this document?"
+  },
+  "notes": {
+    "title": "Notes",
+    "newNote": "New note",
+    "editNote": "Edit note",
+    "fields": {
+      "body": "Note",
+      "pinned": "Pinned"
+    },
+    "confirmDelete": "Delete this note?"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "newRoadmap": "Create roadmap",
+    "editRoadmap": "Edit roadmap",
+    "newStage": "Add stage",
+    "editStage": "Edit stage",
+    "fields": {
+      "title": "Title",
+      "summary": "Summary",
+      "targetCompletion": "Target completion",
+      "completion": "Completion",
+      "stageTitle": "Stage title",
+      "stageDescription": "Stage description",
+      "stageTargetDate": "Stage target date",
+      "stageCompletion": "Stage completion",
+      "stagePosition": "Position"
+    },
+    "noRoadmap": "No roadmap yet. Create one to start planning stages.",
+    "stages": "Stages",
+    "aiHelper": "Ask AI for a growth roadmap",
+    "confirmDelete": "Delete this roadmap and its stages?",
+    "confirmDeleteStage": "Delete this stage?"
+  },
+  "activities": {
+    "title": "Activity",
+    "noActivities": "No activity recorded for this idea yet.",
+    "fields": {
+      "eventType": "Event",
+      "createdAt": "When",
+      "actor": "Actor"
+    }
+  },
+  "analytics": {
+    "title": "Analytics",
+    "noIdea": "Pick an idea to see analytics.",
+    "taskBreakdown": "Task breakdown",
+    "completion": "Completion",
+    "score": "Score",
+    "priority": "Priority"
+  },
+  "about": {
+    "title": "About",
+    "heading": "About Startup Canvas",
+    "blurb": "A full-stack workspace for turning rough startup ideas into validated plans. Built with React, TypeScript, FastAPI, and PostgreSQL. Bilingual, theme-aware, and fully Dockerized.",
+    "version": "Version",
+    "stack": "Tech stack",
+    "docs": "Documentation"
+  }
+}

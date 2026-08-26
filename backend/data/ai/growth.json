@@ -1,0 +1,11 @@
+{
+  "_default": [
+    { "title": "Idea → Research", "detail": "Spend 2 weeks on customer interviews before writing a line of code.", "confidence": 0.7 },
+    { "title": "Research → Prototype", "detail": "Build the smallest prototype that lets a real user accomplish the core task.", "confidence": 0.7 },
+    { "title": "Prototype → MVP", "detail": "Cut features until you can onboard a user in < 10 minutes without help.", "confidence": 0.7 },
+    { "title": "MVP → Beta", "detail": "Recruit 10–25 design partners; offer white-glove onboarding in exchange for feedback.", "confidence": 0.75 },
+    { "title": "Beta → Launch", "detail": "Pick a launch surface (Product Hunt, HN, community) and prepare assets 2 weeks ahead.", "confidence": 0.7 },
+    { "title": "Launch → Growth", "detail": "Identify the one channel that produced >50% of signups and double down.", "confidence": 0.7 },
+    { "title": "Growth → Scale", "detail": "Only after PMF (retention curve flattens) — hire a Head of Sales and a Head of Growth.", "confidence": 0.65 }
+  ]
+}

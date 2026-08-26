@@ -1,0 +1,15 @@
+{
+  "_default": [
+    { "title": "Founder risk", "detail": "Single founder dependency — recruit a co-founder or first hire within 6 months.", "confidence": 0.7 },
+    { "title": "Runway risk", "detail": "Keep ≥ 12 months runway; cut scope aggressively if revenue lags.", "confidence": 0.8 },
+    { "title": "Distribution risk", "detail": "A great product with no distribution will fail. Plan a channel before launch.", "confidence": 0.75 },
+    { "title": "Regulatory risk", "detail": "Map the rules that apply to your data, payments, and content from day one.", "confidence": 0.65 }
+  ],
+  "ai": [
+    { "title": "Model lock-in", "detail": "Abstract model access behind an interface so you can swap providers without rewrites.", "confidence": 0.85 },
+    { "title": "Data leakage", "detail": "Never send customer data to a third-party model without scrubbing PII.", "confidence": 0.9 }
+  ],
+  "fintech": [
+    { "title": "Compliance", "detail": "Treat compliance as a product feature, not a tax.", "confidence": 0.85 }
+  ]
+}

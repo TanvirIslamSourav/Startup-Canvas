@@ -1,0 +1,71 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "deps(frontend)"
+    labels:
+      - "dependencies"
+      - "frontend"
+    groups:
+      prod-dependencies:
+        dependency-type: "production"
+        patterns:
+          - "@*/*"
+          - "!*@types/*"
+      dev-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "@types/*"
+          - "eslint*"
+          - "vite*"
+          - "vitest*"
+          - "tailwindcss*"
+
+  - package-ecosystem: "pip"
+    directory: "/backend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "deps(backend)"
+    labels:
+      - "dependencies"
+      - "backend"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "deps(ci)"
+    labels:
+      - "dependencies"
+      - "ci"
+
+  - package-ecosystem: "docker"
+    directory: "/docker"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "deps(docker)"
+    labels:
+      - "dependencies"
+      - "docker"
